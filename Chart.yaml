@@ -1,0 +1,15 @@
+apiVersion: v2
+appVersion: 1.0.0
+description: Core Package
+name: core
+version: 1.0.0
+home: https://www.kyh0703.co.kr
+icon: file://bcloudx32.png
+type: application
+dependencies:
+  - name: data
+    version: 1.0.0
+    repository: 'https://127.0.0.1/chartrepo/core'
+  - name: api
+    version: 1.0.0
+    repository: 'https://127.0.0.1/chartrepo/core'
